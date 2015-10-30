@@ -1,0 +1,72 @@
+body {
+  background-image: url(/home/carolineh/cheat-sheets/01-c-s-terminal-unix/logo-unix.jpg);
+  background-attachment: fixed;
+}
+
+h1
+{
+  text-align: center;
+  font-family: Arial;
+  font-size: 3em;
+  background-color: #CEE3F6;
+  color: black;
+  border-radius: 0.375em 0.375em 0.375em 0.375em;
+  border: 0.1em #0B614B solid;
+}
+
+h2 {
+  color: black;
+  font-family: Arial;
+  text-align: center;
+  font-size: 2em;
+}
+
+.block-title .navlist li {
+    display: inline;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding-right: 0.5em;
+    text-decoration: none;
+}
+
+.navlist {
+    color:grey;
+    text-decoration: none;
+}
+
+.block-title {
+  text-align: center;
+  border: 0.2em #0B614B solid;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  color: black;
+  background-color: #CEE3F6;
+  font-family: Arial;
+}
+
+a {
+  color:grey;
+}
+
+code {
+  background-color: white;
+  border-radius: 15px;
+  color: black;
+  font-family:Arial;
+  padding: 5px 15px;
+}
+
+p {
+  line-height: 200%;
+  margin: 30px auto;
+  width: 960px;
+}
+
+.block_fond {
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 0.2em #0B614B solid;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  color: black;
+  background-color: #CEE3F6;
+  font-family: Arial;
+}
