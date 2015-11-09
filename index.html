@@ -1,167 +1,184 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>cheat sheet terminal unix</title>
-    <link type="text/css" rel="stylesheet" href="css/style.css"/>
-  </head>
-  <body id="haut">
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--mobiles devices!-->
+    <link rel="icon" href="favicon.ico" />
+</head>
+
+<body id="haut">
     <p class="image_de_fond"></p>
-      <div class="block-title">
+    <div class="block-title">
         <h1>Commandes générales Terminal Unix</h1>
-          <ul class="navlist">
+        <ul class="navlist">
             <li>
-              <a href="#installer">Installer</a>
+                <a href="#installer">Installer</a>
             </li>
             <li>
-              <a href="#créer_copier_supprimer">Créer/Déplacer/Supprimer</a>
+                <a href="#créer_copier_supprimer">Créer/Déplacer/Supprimer</a>
             </li>
             <li>
-              <a href="#afficher">Afficher</a>
+                <a href="#afficher">Afficher</a>
             </li>
             <li>
-              <a href="#se_déplacer">Se déplacer</a>
+                <a href="#se_déplacer">Se déplacer</a>
             </li>
-          </ul>
-      </div>
-      <div class="block_fond">
+        </ul>
+    </div>
+    <div class="block_fond">
         <h2 id="installer">Installer</h2>
-          <p>
-            <code>sudo</code><code>sudo su</code>
+        <p>
+            <code>sudo</code>
+            <code>sudo su</code>
             Passer en super-utilisateur
-          </p>
-          <p>
+        </p>
+        <p>
             <code>apt-get install <u>+nom du paquet</u></code>
             Installer le paquet
-          </p>
-          <p>
+        </p>
+        <p>
             <code>apt-get update</code>
             Mettre à jour les paquets disponibles dans les dépôts APT
-          </p>
-          <p>
+        </p>
+        <p>
             <code>apt-get upgrade</code>
             Mettre à jour les paquets installés
-          </p>
-          <p>
+        </p>
+        <p>
             <code>apt-get install <u>+nom du paquet</u>=2.2-1</code>
             Installer la version 2.2-1 du paquet
-          </p>
-          <p>
+        </p>
+        <p>
             <code>apt-get remove <u>+nom du paquet</u></code>
             Désinstaller le paquet mais pas ses fichiers de configuration
-          </p>
-          <p>
+        </p>
+        <p>
             <code>apt-get purge <u>+nom du paquet</u></code>
             Supprimer le paquet et ses fichiers de configuration
-          </p>
-        </div>
-        <div class="block_fond">
+        </p>
+        <p>
+            <a href="#haut">Retour haut de page</a>
+        </p>
+    </div>
+    <div class="block_fond">
         <h2 id="créer_copier_supprimer">Créer/Copier/Supprimer</h2>
         <p>
-          <code>mkdir <u>+nom du répertoire</u></code>
-          Créer un nouveau répertoire (à l'endroit où l'on est)
+            <code>mkdir <u>+nom du répertoire</u></code>
+            Créer un nouveau répertoire (à l'endroit où l'on est)
         </p>
         <p>
-          <code>touch <u>+nom du fichier</u></code>
-          Créer un nouveau fichier (à l'endroit où l'on est)
+            <code>touch <u>+nom du fichier</u></code>
+            Créer un nouveau fichier (à l'endroit où l'on est)
         </p>
         <p>
-          <code>cat <u>+nom du fichier</u></code>
-          Afficher les détails du fichier
+            <code>cat <u>+nom du fichier</u></code>
+            Afficher les détails du fichier
         </p>
         <p>
-          <code>cp <u>+nom du fichier</u></code>
-          Copier le fichier
+            <code>cp <u>+nom du fichier</u></code>
+            Copier le fichier
         </p>
         <p>
-          <code>mv <u>+nom du fichier +redirection</u>/</code>
-          Déplacer ou renommer le fichier
+            <code>mv <u>+nom du fichier +redirection</u>/</code>
+            Déplacer ou renommer le fichier
         </p>
         <p>
-          <code>rm <u>+nom du fichier</u></code>
-          Supprimer le fichier
+            <code>rm <u>+nom du fichier</u></code>
+            Supprimer le fichier
         </p>
         <p>
-          <code>rm *<u>.txt</u></code>
-          Supprimer tous les fichiers .txt
+            <code>rm *<u>.txt</u></code>
+            Supprimer tous les fichiers .txt
         </p>
         <p>
-          <code>rm -rf <u>+ nom du fichier</u>/</code>
-          Supprimer tout le répertoire et son contenu
+            <code>rm -rf <u>+ nom du fichier</u>/</code>
+            Supprimer tout le répertoire et son contenu
         </p>
-      </div>
-      <div class="block_fond">
+        <p>
+            <a href="#haut">Retour haut de page</a>
+        </p>
+    </div>
+    <div class="block_fond">
         <h2 id="afficher">Afficher</h2>
         <p>
-          <code>ls</code>
-          Afficher le contenu du répertoire
+            <code>ls</code>
+            Afficher le contenu du répertoire
         </p>
         <p>
-          <code>ls -l</code>
-          Afficher les infos de manière détaillée
+            <code>ls -l</code>
+            Afficher les infos de manière détaillée
         </p>
         <p>
-          <code>ls -a</code>
-          Afficher les fichiers cachés
+            <code>ls -a</code>
+            Afficher les fichiers cachés
         </p>
         <p>
-          <code>ls -h</code>
-          Afficher la taille des fichiers
+            <code>ls -h</code>
+            Afficher la taille des fichiers
         </p>
         <p>
-          <code>ls -r</code>
-          Tri inversé
+            <code>ls -r</code>
+            Tri inversé
         </p>
         <p>
-          <code>ls -t</code>
-          Trier les fichiers par date (du plus récent au plus ancien)
+            <code>ls -t</code>
+            Trier les fichiers par date (du plus récent au plus ancien)
         </p>
         <p>
-          <code>ls -S</code>
-          Trier par taille décroissante
+            <code>ls -S</code>
+            Trier par taille décroissante
         </p>
         <p>
-          <code>ls -lhS</code>
-          Afficher les informations fichiers, avec les tailles et triés du plus grand au plus petit
+            <code>ls -lhS</code>
+            Afficher les informations fichiers, avec les tailles et triés du plus grand au plus petit
         </p>
-      </div>
-      <div class="block_fond">
+        <p>
+            <a href="#haut">Retour haut de page</a>
+        </p>
+    </div>
+    <div class="block_fond">
         <h2 id="se_déplacer">Se déplacer</h2>
         <p>
-          <code>cd <u>+nom du répertoire</u></code> ou <code>cd ~ <u>+nom du répertoire</u></code>
-          Accéder directement au répertoire de l'utilisateur
+            <code>cd <u>+nom du répertoire</u></code> ou
+            <code>cd ~ <u>+nom du répertoire</u></code>
+            Accéder directement au répertoire de l'utilisateur
         </p>
         <p>
-          <code>cd /</code>
-          Se déplacer à la racine du disque
+            <code>cd /</code>
+            Se déplacer à la racine du disque
         </p>
         <p>
-          <code>cd <u>+nom du répertoire</u>/</code>
-          Se déplacer dans le répertoire
+            <code>cd <u>+nom du répertoire</u>/</code>
+            Se déplacer dans le répertoire
         </p>
         <p>
-          <code>cd ..</code>
-          Remonter dans le répertoire parent de là où l'on se trouve
+            <code>cd ..</code>
+            Remonter dans le répertoire parent de là où l'on se trouve
         </p>
         <p>
-          <code>cd -</code>
-          Remonter dans le répertoire précédent
+            <code>cd -</code>
+            Remonter dans le répertoire précédent
         </p>
         <p>
-          <code>pwd</code>
-          Renvoyer le chemin absolu du répertoire courant
+            <code>pwd</code>
+            Renvoyer le chemin absolu du répertoire courant
         </p>
         <p>
-          <code>Ctrl C</code>
-          Annuler la commande en cours
+            <code>Ctrl C</code>
+            Annuler la commande en cours
         </p>
         <p>
-          <code><u>atom</u> .</code>
-          Ouvrir l'éditeur de texte atom
+            <code><u>atom</u> .</code>
+            Ouvrir l'éditeur de texte atom
         </p>
         <p>
-          <a href="#haut">Retour haut de page</a>
+            <a href="#haut">Retour haut de page</a>
         </p>
-      </div>
-    </body>
+    </div>
+</body>
+
 </html>

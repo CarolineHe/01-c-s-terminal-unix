@@ -1,72 +1,227 @@
-body {
-  background-image: url(/home/carolineh/cheat-sheets/01-c-s-terminal-unix/logo-unix.jpg);
-  background-attachment: fixed;
+
+/*/////////////////////////////screen between 200px-767px////////////////////////*/
+@media screen and (min-width: 200px) and (max-width: 767px) {
+    body {
+      background-image: url(/home/carolineh/cheat-sheets/01-c-s-terminal-unix/logo-unix.jpg);
+      background-attachment: fixed;
+    }
+
+    p {
+      line-height: 200%;
+      margin: 10px auto;
+      /*width: 960px;*/
+      font-size: 0.8em;
+    }
+
+    .block-title {
+      font-size:1.2em;
+      border: 0.2em #0B614B solid;
+      border-radius: 0.5em 0.5em 0.5em 0.5em;
+      color: black;
+      background-color: #CEE3F6;
+      font-family: Arial;
+      list-style: none;
+      }
+
+    h1 {
+      text-align: center;
+      font-family: Arial;
+      font-size: 0.8em;
+      background-color: #CEE3F6;
+      color: black;
+      border-radius: 0.375em 0.375em 0.375em 0.375em;
+      border: 0.1em #0B614B solid;
+    }
+
+    .navlist {
+        color:grey;
+        text-decoration: none;
+        text-align: left;
+        font-size: 0.75em;
+        list-style-type: none;
+    }
+
+    a {
+      color:black;
+      margin:10px;
+      text-align: right;
+    }
+
+    .block_fond {
+      border: 0.2em #0B614B solid;
+      border-radius: 0.5em 0.5em 0.5em 0.5em;
+      color: black;
+      background-color: #CEE3F6;
+      font-family: Arial;
+    }
+
+    h2 {
+      color: black;
+      font-family: Arial;
+      text-align: center;
+      font-size: 0.8em;
+    }
+
+    code {
+      background-color: white;
+      border-radius: 15px;
+      color: black;
+      font-family:Arial;
+      padding: 5px 15px;
+    }
 }
 
-h1
-{
-  text-align: center;
-  font-family: Arial;
-  font-size: 3em;
-  background-color: #CEE3F6;
-  color: black;
-  border-radius: 0.375em 0.375em 0.375em 0.375em;
-  border: 0.1em #0B614B solid;
+
+/*/////////////////////////////screen between 768px-1023px////////////////////////*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      background-image: url(/home/carolineh/cheat-sheets/01-c-s-terminal-unix/logo-unix.jpg);
+      background-attachment: fixed;
+    }
+
+    p {
+      line-height: 200%;
+      margin: 30px auto;
+      width: 960px;
+    }
+
+    .block-title {
+      text-align: center;
+      border: 0.2em #0B614B solid;
+      border-radius: 0.5em 0.5em 0.5em 0.5em;
+      color: black;
+      background-color: #CEE3F6;
+      font-family: Arial;
+    }
+
+    .block-title .navlist li {
+        display: inline;
+        font-size: 1.2em;
+        list-style-type: none;
+        padding-right: 0.5em;
+        text-decoration: none;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: Arial;
+      font-size: 2em;
+      background-color: #CEE3F6;
+      color: black;
+      border-radius: 0.375em 0.375em 0.375em 0.375em;
+      border: 0.1em #0B614B solid;
+    }
+
+    .navlist {
+        color:grey;
+        text-decoration: none;
+    }
+
+    a {
+      color:black;
+      margin:10px;
+      text-align: right;
+    }
+
+    .block_fond {
+      /*margin-left: 200px;
+      margin-right: 200px;*/
+      border: 0.2em #0B614B solid;
+      border-radius: 0.5em 0.5em 0.5em 0.5em;
+      color: black;
+      background-color: #CEE3F6;
+      font-family: Arial;
+    }
+
+    h2 {
+      color: black;
+      font-family: Arial;
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+    code {
+      background-color: white;
+      border-radius: 15px;
+      color: black;
+      font-family:Arial;
+      padding: 5px 15px;
+    }
 }
 
-h2 {
-  color: black;
-  font-family: Arial;
-  text-align: center;
-  font-size: 2em;
-}
 
-.block-title .navlist li {
-    display: inline;
-    font-size: 1.5em;
-    list-style-type: none;
-    padding-right: 0.5em;
-    text-decoration: none;
-}
+/*/////////////////////////////screen between 1024px-1500px////////////////////////*/
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+    body {
+      background-image: url(/home/carolineh/cheat-sheets/01-c-s-terminal-unix/logo-unix.jpg);
+      background-attachment: fixed;
+    }
 
-.navlist {
-    color:grey;
-    text-decoration: none;
-}
+    p {
+      line-height: 200%;
+      margin: 30px auto;
+      width: 960px;
+    }
 
-.block-title {
-  text-align: center;
-  border: 0.2em #0B614B solid;
-  border-radius: 0.5em 0.5em 0.5em 0.5em;
-  color: black;
-  background-color: #CEE3F6;
-  font-family: Arial;
-}
+    .block-title {
+      text-align: center;
+      border: 0.2em #0B614B solid;
+      border-radius: 0.5em 0.5em 0.5em 0.5em;
+      color: black;
+      background-color: #CEE3F6;
+      font-family: Arial;
+    }
 
-a {
-  color:black;
-}
+    .block-title .navlist li {
+        display: inline;
+        font-size: 1.5em;
+        list-style-type: none;
+        padding-right: 0.5em;
+        text-decoration: none;
+    }
 
-code {
-  background-color: white;
-  border-radius: 15px;
-  color: black;
-  font-family:Arial;
-  padding: 5px 15px;
-}
+    h1 {
+      text-align: center;
+      font-family: Arial;
+      font-size: 3em;
+      background-color: #CEE3F6;
+      color: black;
+      border-radius: 0.375em 0.375em 0.375em 0.375em;
+      border: 0.1em #0B614B solid;
+    }
 
-p {
-  line-height: 200%;
-  margin: 30px auto;
-  width: 960px;
-}
+    .navlist {
+        color:grey;
+        text-decoration: none;
+    }
 
-.block_fond {
-  margin-left: 200px;
-  margin-right: 200px;
-  border: 0.2em #0B614B solid;
-  border-radius: 0.5em 0.5em 0.5em 0.5em;
-  color: black;
-  background-color: #CEE3F6;
-  font-family: Arial;
+    a {
+      color:black;
+      margin:10px;
+      text-align: right;
+    }
+
+    .block_fond {
+      border: 0.2em #0B614B solid;
+      border-radius: 0.5em 0.5em 0.5em 0.5em;
+      color: black;
+      background-color: #CEE3F6;
+      font-family: Arial;
+    }
+
+    h2 {
+      color: black;
+      font-family: Arial;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    code {
+      background-color: white;
+      border-radius: 15px;
+      color: black;
+      font-family:Arial;
+      padding: 5px 15px;
+    }
+
 }
